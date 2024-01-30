@@ -1,0 +1,239 @@
+*{
+    
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(240, 248, 255, 0);
+}
+
+.Fondo{
+    position:absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    opacity: 80%;
+    min-height:165vh;
+    min-width: 100vw;
+    background-image:url("https://images.unsplash.com/photo-1516116216624-53e697fedbea?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8cHJvZ3JhbW1pbmd8ZW58MHx8MHx8&w=1000&q=80" );
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+.Form-Contacto--input{
+    margin: 10px;
+}
+
+.Form-Contacto-input--textarea{
+    max-width: inherit;
+    max-height: inherit;
+}
+
+.Caja-Skills{
+    margin-top: 0rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding:1rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap:10rem;
+    background-color: rgba(240, 248, 255, 0.612);
+}
+
+.Caja-Skills a{
+    display: inline-block;
+}
+
+.Javascript{
+    opacity: 30%;
+}
+
+.React{
+    opacity: 30%;
+}
+
+.Belly{
+    justify-content: center;
+    padding: 0.5rem;
+    height:100vh;
+    width:100vw;
+}
+
+/*
+.Fondo-Index{
+    height:100vh;
+    width:100vw;
+    opacity: 50%;
+    border-radius: 2rem;
+}
+*/
+
+.Descripcion-Index{
+    position: relative;
+    padding: 1rem;
+    margin: 2rem;
+    top:5rem;
+    opacity: 80%;
+    background-color: whitesmoke;
+    border-radius: 0.5rem;
+}
+
+.Descripcion-Index p{
+    opacity: 100%;
+    justify-content: center;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    text-align: center;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.Form-Contacto{
+    margin: 10px;
+    background-color: whitesmoke;
+    padding: 10px;
+    max-width: 500px;
+    border-width: 1px;
+    border-radius: 10px;
+    border-style: ridge;
+    border-color: grey;
+    box-shadow: 15px, 15px, grey, inset;
+}
+
+.Mail-Contacto{
+    margin: 10px;
+    padding: 10px;
+    max-width: 500px;
+    background-color: whitesmoke;
+    border-width: 1px;
+    border-radius: 10px;
+    border-style: ridge;
+    border-color: grey;
+}
+button{
+    padding: 8px;
+    border-radius: 10px;
+}
+
+a{
+    text-decoration:none;
+}
+
+nav{
+    margin:0.5rem;
+    padding: 0;
+    list-style: none;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(223, 221, 221);
+    justify-content: border-box;
+    border-radius: 2rem;
+    box-shadow: 2px/*Eje X*/ 2px/*Eje Y*/ 3px/*Tamaño del difuminado*/ 0/*Tamaño del borde*/ white/*Obviamente el color*/;
+    overflow:hidden; /*Establece lo que va a ocurrir con el contenido que desborda de este contenedor*/
+}
+
+nav a{
+    display:flex;
+    justify-content: center;
+}
+
+nav ul{
+    padding:0.25rem;
+    list-style: none;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 5rem;
+}
+
+nav ul li{
+    padding: 0.5rem;
+    background-color:  rgb(223, 221, 221);
+    border-radius: 2rem;
+}
+
+.Artif-Gap{
+    margin:0rem 5rem 0rem 0rem;
+    padding: 0rem 5rem 0rem 0rem;
+}
+
+nav ul li:hover{
+    border-width: 1px;
+    border-style: groove;
+    border-color: rgb(223, 221, 221);
+    border-radius: 2rem;
+    box-shadow: 1px/*Eje X*/ 2px/*Eje Y*/ 3px/*Tamaño del difuminado*/ 0/*Tamaño del borde*/ grey/*Obviamente el color*/;
+}
+
+nav ul li a{
+    display: inline-block;
+    margin:0.5rem;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-weight:600;
+    text-decoration: none;
+    color: rgb(66, 66, 66);
+}
+
+/*
+.Nav__Items{
+    list-style: none;
+    column-gap: 5rem;
+}
+
+.Logo-Icon{
+    border-style: none;
+}
+
+.Logo-Icon:hover{
+    background-color:  rgb(223, 221, 221);
+}
+
+nav ul li{
+    padding: 0.5rem;  
+    justify-content: center; 
+    border-width: 1px;
+    border-color: grey;
+    border-style: solid;
+    border-radius: 8px;
+}
+
+nav ul li a{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav ul li:hover{
+    background-color: grey;
+} */
+
+.Form-Contacto--input{
+    
+}
+
+.video-sobre-mi{
+    margin: 5rem;
+    border-radius: 0.5rem;
+}
+
+footer{
+    position: relative;
+    bottom: 0;
+    margin:0.5rem;
+    padding: 1rem;
+    list-style: none;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    column-gap: 5rem;
+    justify-content: center;
+    background-color: rgb(223, 221, 221);
+    justify-content: border-box;
+    border-radius: 2rem;
+    box-shadow: 2px/*Eje X*/ 2px/*Eje Y*/ 3px/*Tamaño del difuminado*/ 0/*Tamaño del borde*/ white/*Obviamente el color*/;
+}
